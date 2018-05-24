@@ -1,5 +1,5 @@
 
-Read Me File on Project 10 SQL queries on "New" database
+Read Me File on Project 10 SQL queries on "News" database
 
 SQL Queries to external database "News". 
 
@@ -30,10 +30,10 @@ catalog  forum  newsdata.sql  project.py  select  tournament  Vagrantfile
 
 >>  vagrant@vagrant:/vagrant$ python project.py
 
->>>    vagrant@vagrant:/vagrant$ psql -d news  // to connect to “news” database.
+>>>    vagrant@vagrant:/vagrant$ psql -d news  // to connect to â€œnewsâ€ database.
 
 
->> news=> \dt		// to list database tables in “news” 
+>> news=> \dt		// to list database tables in â€œnewsâ€ 
           List of relations
  Schema |   Name   | Type  |  Owner
 --------+----------+-------+---------
